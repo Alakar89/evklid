@@ -23,6 +23,10 @@ img {
   max-width: 100%;
 }
 
+p, h1, h2, h3, h4 {
+  margin: 0;
+}
+
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat-Regular"),
@@ -76,6 +80,7 @@ body {
   padding: 0 75px;
   margin: 0 auto;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .h2-title {
@@ -123,7 +128,52 @@ body {
   background-image: url("../img/index-banner.jpg");
   border-radius: 32px;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-clip: content-box;
+  background-size: contain;
+  max-width: 1770px;
   height: 620px;
+  padding: 0 80px;
+}
+
+.banner__content {
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+}
+
+.h1-title {
+  color: #FFF;
+  font-size: 70px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.banner__descr {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 90px;
+}
+
+.banner__btn {
+  width: fit-content;
+  padding: 18.571px 37.142px;
+  border-radius: 16px;
+  background: #F90;
+  color: #FFF;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+/* about-us */
+.about-us__title {
+  margin-bottom: 20px;
+}
+
+.about-us__descr {
+  max-width: 1235px;
+  margin-bottom: 50px;
+}
+
+.about-us__content {
+
 }
