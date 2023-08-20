@@ -95,14 +95,35 @@ body {
   box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.10);
   border-radius: 0px 0px 32px 32px;
   height: 100px;
-}
-
-.header__list {
-  position: relative;
-  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .header__logo {
-  position: absolute;
-  align-self: center;
+  min-width: 110px;
+  gap: 12.16px;
+}
+
+.header__nav {
+  margin-left: auto;
+}
+
+.header__list {
+  gap: 85px;
+}
+
+.header__link {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* banner */
+.banner__container {
+  background-image: url("../img/index-banner.jpg");
+  border-radius: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  height: 620px;
 }
