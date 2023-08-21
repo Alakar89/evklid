@@ -175,16 +175,3 @@ body {
   margin-bottom: 50px;
 }
 
-.about-us__content {
-  justify-content: center;
-  gap: 32px;
-  height: 622px;
-}
-
-.about-us__left-content {
-  position: relative;
-  background-image: url("../img/about-us-banner.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
