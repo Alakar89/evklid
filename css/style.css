@@ -75,6 +75,12 @@ body {
   display: flex;
 }
 
+.btn {
+  padding: 19px 38px;
+  border-radius: 16px;
+  border: 3px solid #F90;
+}
+
 .container {
   max-width: 1920px;
   padding: 0 75px;
@@ -93,6 +99,11 @@ body {
   color: #000;
   font-size: 16px;
   line-height: 32px;
+}
+
+:root {
+  --gap: 32px;
+  --offsets: 1;
 }
 
 /* header */
@@ -128,7 +139,8 @@ body {
   background-image: url("../img/index-banner.jpg");
   border-radius: 32px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
   max-width: 1770px;
   height: 620px;
   padding: 0 80px;
@@ -138,7 +150,6 @@ body {
   flex-direction: column;
   justify-content: center;
   max-width: 50%;
-  /* max-height: 620px; */
 }
 
 .h1-title {
@@ -176,50 +187,22 @@ body {
 }
 
 .about-us__list {
+  /* gap: var(--gap); */
   flex-wrap: wrap;
-  gap: 32px;
-}
-
-.list__banner {
-  width: 49%;;
-  background-image: url('../img/about-us-banner.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 620px;
-}
-
-.list__item-banner {
-  justify-content: end;
-  align-items: end;
-  border-radius: 32px;
-}
-
-.list__article {
-  width: 49%;
-  flex-direction: column;
-  gap: 32px;
 }
 
 .list__item {
-  height: 295px;
-  padding: 65px 0;
-  border: 1px solid #CACACA;
-  border-radius: 32px;
+  width: calc((100% - (var(--gap) * var(--offsets))) / (var(--offsets) + 1));
 }
 
-.list__item-banner::before {
-  content: "";
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 196px;
-  background-color: rgba(0, 0, 0, 0.50);
-  border-radius: 32px;
+.item-banner {
+  max-width: 869px;
+  background-image: url("../img/about-us-banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.list__item-banner-descr {
-  max-width: 433px;
-  color: #FFF;
-  font-size: 16px;
-  font-weight: 700;
+.list__right-content {
+  max-width: 869px;
 }
