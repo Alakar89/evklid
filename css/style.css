@@ -191,9 +191,9 @@ body {
   flex-wrap: wrap;
 }
 
-.list__item {
+/* .list__item {
   width: calc((100% - (var(--gap) * var(--offsets))) / (var(--offsets) + 1));
-}
+} */
 
 .list__banner {
   max-width: 869px;
@@ -251,6 +251,6 @@ body {
   flex-direction: column;
   width: 100%;
   height: 295px;
-  outline: 1px solid #CACACA;
+  border: 1px solid #CACACA;
   border-radius: 32px;
 }
