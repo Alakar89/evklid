@@ -307,8 +307,8 @@ body {
 .stages__container {
   background-image: url("../img/stages-banner.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
+  background-size: 50%;
+  background-position: right bottom;
   background-clip: border-box;
 }
 
