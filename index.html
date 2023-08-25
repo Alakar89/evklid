@@ -315,19 +315,20 @@
       </nav>
     </div>
     <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="footer__form form flex">
+      <h2 class="h2-title footer-title">Оставить заявку</h2>
       <input type="text" name="fio" placeholder="Фамилия, имя и&nbsp;отчество*" required class="form__input">
       <input type="email" name="email" placeholder="Email*" required class="form__input">
       <textarea name="message" placeholder="Сообщение" class="form__message"></textarea>
       <div class="form__push-date">
-        <button class="footer__btn btn">Отправить данные</button>
-        <label class="footer__label">
-          <input type="checkbox" class="form__input checkbox">
-          Согласен на обработку данных
+        <button class="footer__btn btn btn-reset">Отправить данные</button>
+        <label class="footer__checkbox-label">
+          <input type="checkbox" required class="form__checkbox-custom">
+          <span class="form__checkbox-text">Согласен на обработку данных</span>
         </label>
       </div>
     </form>
-    <div class="footer__descr">
-      <p class="descr">
+    <div class="footer__descr flex">
+      <p class="footer__descr-text descr">
         Высокий уровень вовлечения представителей целевой аудитории является чётким
         доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное
         мышление позволяет оценить значение модели развития. Таким образом, консультация
