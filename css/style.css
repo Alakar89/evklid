@@ -138,9 +138,30 @@ body {
 }
 
 .header__link {
+  position: relative;
   color: #000;
   font-size: 18px;
   font-weight: 600;
+  /* transition: border-bottom 0.3s ease-in-out; */
+}
+
+.header__link:focus {
+  outline: 2px solid #F90;
+  outline-offset: 5px;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.header__link:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #F90;
+}
+
+.header__link:active {
+  color: #E1670E;
+  outline: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #E1670E;
 }
 
 /* banner */
@@ -165,7 +186,6 @@ body {
   color: #FFF;
   font-size: 70px;
   font-weight: 800;
-  margin-bottom: 24px;
 }
 
 .banner__descr {
@@ -187,7 +207,7 @@ body {
 
 /* about-us */
 .about-us__container {
-  margin-bottom: 100px;
+  margin-bottom: 110px;
 }
 
 .about-us__title {
@@ -297,6 +317,10 @@ body {
   right: 0;
 }
 
+.list__title {
+  white-space: nowrap;
+}
+
 .list__article-right {
   display: flex;
   flex-direction: column;
@@ -305,6 +329,10 @@ body {
 }
 
 /* stages */
+.stages__container {
+  margin-bottom: 105px;
+}
+
 .stages__block {
   background-image: url("../img/stages-banner.jpg");
   background-repeat: no-repeat;
