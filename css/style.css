@@ -142,7 +142,6 @@ body {
   color: #000;
   font-size: 18px;
   font-weight: 600;
-  /* transition: border-bottom 0.3s ease-in-out; */
 }
 
 .header__link:focus {
@@ -152,12 +151,17 @@ body {
   border-bottom: none;
 }
 
+.header__link:focus:hover {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
 .header__link:hover {
   padding-bottom: 5px;
   border-bottom: 2px solid #F90;
 }
 
-.header__link:active {
+.header__link:active:focus {
   color: #E1670E;
   outline: none;
   padding-bottom: 5px;
