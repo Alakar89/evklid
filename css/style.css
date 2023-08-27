@@ -168,6 +168,28 @@ body {
   border-bottom: 2px solid #E1670E;
 }
 
+.header__link-search:focus {
+  outline: 2px solid #F90;
+  outline-offset: 2px;
+}
+
+.header__search-svg path, rect {
+  stroke: #000;
+}
+
+.header__search-svg rect {
+  fill: #000;
+}
+
+.header__search-svg:hover path {
+  stroke: #F90;
+}
+
+.header__search-svg:hover rect {
+  fill: #F90;
+  stroke: #F90;
+}
+
 /* banner */
 .banner__container {
   background-image: url("../img/index-banner.jpg");
@@ -207,6 +229,19 @@ body {
   color: #FFF;
   font-size: 23px;
   font-weight: 700;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.banner__btn:focus {
+  background-color: #FFB84D;
+}
+
+.banner__btn:hover {
+  background-color: #FFB84D;
+}
+
+.banner__btn:active {
+  background-color: #E1670E;
 }
 
 /* about-us */
@@ -276,6 +311,19 @@ body {
   margin-right: 50px;
   margin-bottom: 68px;
   z-index: 3;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.list__btn-banner:focus {
+  background-color: #F90;
+}
+
+.list__btn-banner:hover {
+  background-color: #F90;
+}
+
+.list__btn-banner:active {
+  background-color: #E1670E;
 }
 
 .list__right-content {
@@ -357,10 +405,39 @@ body {
   margin-right: 32px;
   background-color: #FF9900;
   color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.stages-btn__left:focus {
+  background-color: #F90;
+}
+
+.stages-btn__left:hover {
+  background-color: #FFB84D;
+}
+
+.stages-btn__left:active {
+  background-color: #E1670E;
 }
 
 .stages-btn__right {
   border: 1px solid #000;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.stages-btn__right:focus {
+  background-color: #666666;
+  color: #FFFFFF;
+}
+
+.stages-btn__right:hover {
+  background-color: #666666;
+  color: #FFFFFF;
+}
+
+.stages-btn__right:active {
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
 /* questions */
@@ -415,12 +492,47 @@ body {
   line-height: 32px;
 }
 
+.footer__link {
+  transition: color 0.3s ease-in-out;
+}
+
+.footer__link:focus {
+  outline: 2px solid #FF9900;
+  outline-offset: 5px;
+}
+
+.footer__link:hover {
+  color: #FF9900;
+}
+
+.footer__link:active {
+  color: #E1670E;
+  outline: none;
+}
+
 .social {
   margin-top: 90px;
 }
 
 .social__link:not(:last-child) {
   padding-right: 25px;
+}
+
+.social__link:focus svg {
+  outline: 2px solid #F90;
+  outline-offset: 5px;
+}
+
+.social__link:hover svg path {
+  fill: #FF9900;
+}
+
+.social__link:active svg path {
+  fill: #E1670E;
+}
+
+.social__link:active svg {
+  outline: none;
 }
 
 .footer__form {
