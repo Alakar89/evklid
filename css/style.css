@@ -114,7 +114,8 @@ body {
   --offsets: 1;
 }
 
-.logo__link {
+.logo__link-header,
+.logo__link-footer {
   display: flex;
   align-items: center;
   gap: 12.16px;
@@ -346,8 +347,8 @@ body {
 }
 
 .list__picture-svg {
-  margin-left: 60px;
-  margin-right: 50px;
+  padding-left: 60px;
+  padding-right: 50px;
 }
 
 .list__item-svg {
@@ -473,6 +474,7 @@ body {
   justify-content: space-between;
   padding: 50px 75px;
   background-color: #000;
+  margin-bottom: 0;
 }
 
 .footer__nav-block {
