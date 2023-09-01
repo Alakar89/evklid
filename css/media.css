@@ -611,7 +611,7 @@
   }
 
   .stages__banner {
-    max-width: 290px;
+    min-width: 290px;
     min-height: 160px;
     min-width: auto;
     border-radius: 16px;
