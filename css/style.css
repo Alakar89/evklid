@@ -386,11 +386,6 @@ body {
   margin-bottom: 105px;
 }
 
-.stages__block {
-  /* flex-wrap: wrap-reverse; */
-  /* width: 100%; */
-}
-
 .stages__content {
   /* max-width: 758px; */
   margin-right: 142px;
