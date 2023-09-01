@@ -454,6 +454,7 @@
   /* about-us */
   .about-us__container {
     padding: 0 15px;
+    margin-bottom: 59px;
   }
 
   .about-us__title {
@@ -471,9 +472,208 @@
     margin-bottom: 14px;
   }
 
+  .about-us__list {
+    flex-direction: column;
+  }
+
+  .list__banner {
+    background: none;
+    min-height: 0;
+  }
+
+  .item-banner {
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    align-items: flex-start;
+  }
+
+  .item-banner {
+    position: relative;
+    justify-content: flex-end;
+    border: none;
+  }
+
+  .item-banner::before {
+    content: "";
+    top: 0;
+    min-height: 200px;
+    background-image: url("../img/about-us-banner-320.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    z-index: none;
+  }
+
+  .list__descr-banner {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 0;
+    margin-bottom: 12px;
+  }
+
+  .list__btn-banner {
+    color: #F90;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    border: 2px solid #F90;
+    margin: 0;
+    padding: 10px 42px
+  }
+
+  .item-right {
+    flex-direction: column;
+    align-items: normal;
+    border: none;
+  }
+
+  .list__article-right {
+    padding: 0;
+  }
+
+  .list__picture-svg {
+    padding: 0;
+  }
+
+  .list__title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 4px;
+  }
+
+  .list__descr {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .list__item-svg {
+    width: 64px;
+    height: 62px;
+  }
+
+  .list__circle-svg {
+    width: 43px;
+    height: 62px;
+  }
+
+  .list__circle-svg-bottom {
+    height: 67px;
+  }
+
+  .list__cube-svg {
+    width: 43px;
+    height: 56px;
+  }
+
+  .list__gear-svg {
+    width: 43px;
+    height: 42px;
+  }
+
   /* stages */
+  .stages__container {
+    padding: 0 15px;
+    margin-bottom: 60px;
+  }
+
+  .h2-title-stages {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+
+  .h3-title-stages {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+
+  .stages__descr-1,
+  .stages__descr-2 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .stages__banner {
+    max-width: 290px;
+    min-height: 160px;
+    min-width: auto;
+    border-radius: 16px;
+    margin-bottom: 15px;
+  }
+
+  .stages__buttons {
+    margin: 0;
+    margin-top: 24px;
+  }
+
+  .stages-btn__left {
+    margin-right: 10px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    padding: 9px 41px;
+  }
+
+  .stages-btn__right {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    padding: 9px 30px
+  }
 
   /* questions */
+  .questions__container {
+    padding: 0 15px;
+  }
+
+  .questions__title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+
+  .h3-title-mod {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 4px;
+  }
+
+  .questions__descr {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .questions__item {
+    padding: 0;
+    border: none;
+  }
 
   /* footer */
 }
