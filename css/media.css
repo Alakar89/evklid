@@ -137,6 +137,7 @@
   .stages-btn__left {
     margin: 0;
     margin-right: 24px;
+    border: 1px solid #F90;
   }
 
   .stages__banner {
@@ -182,7 +183,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   /* header */
   .header__container {
     min-height: 69px;
@@ -639,7 +640,7 @@
     font-weight: 700;
     line-height: normal;
     border-radius: 8px;
-    padding: 11px 30px
+    padding: 9px 30px
   }
 
   /* questions */
