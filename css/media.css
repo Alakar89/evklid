@@ -182,7 +182,7 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   /* header */
   .header__container {
     min-height: 69px;
@@ -756,6 +756,7 @@
   }
 
   .social__link:not(:last-child) {
-    padding-right: 16px;
+    padding-right: 0;
+    margin-right: 16px;
   }
 }
