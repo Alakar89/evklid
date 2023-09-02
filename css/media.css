@@ -128,7 +128,6 @@
     font-weight: 400;
     line-height: 32px;
     margin-bottom: 0;
-    padding-bottom: 22px;
   }
 
   .stages__content {
@@ -497,7 +496,7 @@
   .item-banner::before {
     content: "";
     top: 0;
-    min-height: 200px;
+    max-height: 250px;
     background-image: url("../img/about-us-banner-320.png");
     background-repeat: no-repeat;
     background-color: transparent;
@@ -600,6 +599,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
+    margin-bottom: 7px;
   }
 
   .stages__descr-1,
@@ -620,7 +620,7 @@
 
   .stages__buttons {
     margin: 0;
-    margin-top: 24px;
+    height: 64px;
   }
 
   .stages-btn__left {
@@ -639,12 +639,13 @@
     font-weight: 700;
     line-height: normal;
     border-radius: 8px;
-    padding: 9px 30px
+    padding: 11px 30px
   }
 
   /* questions */
   .questions__container {
     padding: 0 15px;
+    margin-bottom: 59px;
   }
 
   .questions__title {
@@ -660,7 +661,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
   }
 
   .questions__descr {
@@ -676,4 +677,23 @@
   }
 
   /* footer */
+  .footer__container {
+    padding: 15px 30px;
+  }
+
+  .footer-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .form__push-date {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__btn {
+    margin: 0;
+  }
 }

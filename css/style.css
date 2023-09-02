@@ -392,10 +392,6 @@ body {
   width: 50%;
 }
 
-.stages__descr-2 {
-  margin-bottom: 18px;
-}
-
 .stages-btn__left {
   margin-right: 32px;
   background-color: #FF9900;
@@ -443,6 +439,11 @@ body {
 .stages-btn__right:active {
   background-color: #000000;
   color: #FFFFFF;
+}
+
+.stages__buttons {
+  height: 85px;
+  align-items: flex-end;
 }
 
 /* questions */
