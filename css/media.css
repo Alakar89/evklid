@@ -432,12 +432,12 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-bottom: 32px;
+    padding-bottom: 36px;
   }
 
   .banner__btn {
     max-width: 162px;
-    padding: 11.571px 25.142px;
+    padding: 10px 25px;
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
@@ -661,7 +661,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
   }
 
   .questions__descr {
@@ -678,7 +678,7 @@
 
   /* footer */
   .footer__container {
-    padding: 15px 30px;
+    padding: 30px 15px;
   }
 
   .footer-title {
@@ -688,12 +688,74 @@
     line-height: normal;
   }
 
+  .footer__form {
+    margin-bottom: 27px;
+  }
+
   .form__push-date {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    width: 100%;
+    align-items: center;
   }
 
   .footer__btn {
     margin: 0;
+    max-width: 162px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 9px 16px;
+    border-radius: 7px;
+    margin-bottom: 11px;
+  }
+
+  .footer-title {
+    margin-bottom: -8px;
+  }
+
+  .form__input {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 13px 18px;
+  }
+
+  .form__message {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 13px 19px;
+  }
+
+  .form__checkbox-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .footer__nav-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .footer-logo {
+    max-width: 131px;
+    margin-bottom: -9px;
+  }
+
+  .social__link svg {
+    max-width: 40px;
+  }
+
+  .social__link:not(:last-child) {
+    padding-right: 16px;
   }
 }
