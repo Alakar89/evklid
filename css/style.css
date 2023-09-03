@@ -628,6 +628,7 @@ body {
 }
 
 .footer__checkbox-label {
+  position: relative;
   user-select: none;
   cursor: pointer;
   color: #CACACA;
@@ -679,4 +680,14 @@ body {
 
 .footer__descr-text {
   color: #CACACA;
+}
+
+.form__checkbox-custom:focus {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  outline: 2px solid #FF9900;
+  outline-offset: 5px;
+  top: 0;
+  left: 0;
 }
