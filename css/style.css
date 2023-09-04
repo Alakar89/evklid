@@ -522,7 +522,7 @@ body {
 }
 
 .social__link:not(:last-child) {
-  padding-right: 25px;
+  margin-right: 25px;
 }
 
 .social__link:hover svg path {
